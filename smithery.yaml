@@ -1,0 +1,25 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - aimlApiKey
+    properties:
+      aimlApiKey:
+        type: string
+        description: Your AIML API key with Bearer prefix, e.g. 'Bearer xxx'
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'node',
+      args: ['build/index.js'],
+      env: {
+        AIML_API_KEY: config.aimlApiKey
+      }
+    })
+  exampleConfig:
+    aimlApiKey: Bearer your-aiml-api-key-here
