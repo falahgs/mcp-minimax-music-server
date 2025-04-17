@@ -2,6 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![smithery badge](https://smithery.ai/badge/@falahgs/mcp-minimax-music-server)](https://smithery.ai/server/@falahgs/mcp-minimax-music-server)
 
 A Model Context Protocol (MCP) server implementation for AI-powered audio generation using the MiniMax Music API. Developed by Falah.G.Salieh.
 
@@ -41,6 +42,16 @@ This MCP server enables AI agents to generate music and audio content using the 
 - Windows/Linux/macOS operating system
 
 ## 📦 Installation
+
+### Installing via Smithery
+
+To install mcp-minimax-music-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@falahgs/mcp-minimax-music-server):
+
+```bash
+npx -y @smithery/cli install @falahgs/mcp-minimax-music-server --client claude
+```
+
+### Manual Installation
 
 1. Clone the repository:
    ```bash
