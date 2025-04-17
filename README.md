@@ -74,7 +74,7 @@ This MCP server enables AI agents to generate music and audio content using the 
        "minimax-music-server": {
          "command": "node",
          "args": [
-           "G:\\mcp-minimax-music-server\\build\\index.js"
+           "path\\to\\mcp-minimax-music-server\\build\\index.js"
          ],
          "env": {
            "AIML_API_KEY": "Bearer your-aiml-api-key-here"
