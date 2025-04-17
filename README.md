@@ -44,7 +44,7 @@ This MCP server enables AI agents to generate music and audio content using the 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/falahgs/mcp-minimax-music-server.git
+   git clone https://github.com/yourusername/mcp-minimax-music-server.git
    cd mcp-minimax-music-server
    ```
 
@@ -74,7 +74,7 @@ This MCP server enables AI agents to generate music and audio content using the 
        "minimax-music-server": {
          "command": "node",
          "args": [
-           "path\\to\\mcp-minimax-music-server\\build\\index.js"
+           "G:\\mcp-minimax-music-server\\build\\index.js"
          ],
          "env": {
            "AIML_API_KEY": "Bearer your-aiml-api-key-here"
